@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Google icon link -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Custom style sheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive Rating Component</title>
+</head>
+<body>
+    <div class="card rate-us-card">
+        <div class="star">
+            <span class="material-symbols-outlined">grade</span>
+        </div>
+        <h2>How did we  do?</h2>
+        <p class="rate-intro">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+        <div class="rating">
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+        </div>
+        <button class="submit">SUBMIT</button>
+    </div>
+    <!-- Thank you page -->
+    <div class="card thank-you-card hidden">
+        <div class="image">
+            <img src="images/illustration-thank-you.svg" alt="image for thank you" srcset="">
+        </div>
+        <div class="thank">
+            <p class="rating-number">You selected <span id="rating"> 5 </span> out of 5</p>
+            <h2>Thank You!</h2>
+            <p class="thank-you">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+        </div>
+
+    </div>
+
+
+
+    <!-- custom JS file -->
+    <script src="script.js"></script>
+</body>
+</html>

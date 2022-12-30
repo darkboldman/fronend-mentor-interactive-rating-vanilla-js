@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    margin: auto;
+    padding: 20% 0;
+    width: 1440px;
+    
+}
+
+.card {
+    align-self: center;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    justify-content: center;
+    margin: auto;
+    padding: 2%;
+    width: 25%;
+    
+}
+
+.star {
+    align-items: center;
+    background-color: hsl(219, 24%, 24%);
+    border-radius: 50%;
+    display: flex;
+    height: 3rem;
+    justify-content: center;
+    width: 3rem;
+    
+    
+}
+
+.material-symbols-outlined {
+    color: hsl(25, 97%, 53%);
+    font-size: 1.2rem;
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+
+h2 {
+    padding: 1rem 0;
+    font-weight: 700;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 0.9rem;
+}
+
+.rating {
+    padding: 1.5rem 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+li {
+    align-items: center;
+    background-color: hsl(219, 24%, 24%);
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    width: 3rem;
+}
+
+li:hover {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+li:active {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    font-weight: 700;
+    
+}
+
+.submit {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 25px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    padding: 1rem;
+}
+.submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+/* Thank you page */
+.thank-you-card {
+    padding: 2rem 1rem;
+}
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.3rem;
+}
+img {
+    width: 30%;
+}
+.thank {
+    text-align: center;
+}
+.rating-number {
+    background-color: hsl(219, 24%, 24%);
+    border-radius: 25px;
+    color: hsl(25, 97%, 53%);
+    display: inline-block;
+    font-size: 0.7rem;
+    padding: 0.4rem 1rem;
+}
+p.thank-you {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Responsive design - Media queries */
+@media screen and (min-width: 701px) and (max-width: 1000px){
+    body {
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .card {
+        width: 60%;
+    }
+  
+}
+@media screen and (min-width: 400px) and (max-width: 700px){
+    body {
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .card {
+        width: 75%;
+    }
+  
+}
+@media screen and (max-width: 399px){
+    body {
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .card {
+        width: 80%;
+    }
+  
+}
